@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'اسکریپت فروشگاهی کدمن',
-  tagline: 'Dinosaurs are cool',
+  title: 'اسکریپت کدمن',
+  tagline: ' راه‌اندازی و مدیریت فروشگاه‌های اینترنتی    ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'vahidpur', // Usually your GitHub org/user name.
+  projectName: 'doc-code-man', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,8 +30,25 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fa',
+    locales: ['en', 'fa'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      fa: {
+        label: 'فارسی',
+        direction: 'rtl',
+        htmlLang: 'fa-IR',
+        calendar: 'persian',
+        path: 'fa',
+      },
+    },
   },
 
   presets: [
@@ -44,14 +61,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Vahidpur/doc-code-man/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Vahidpur/doc-code-man/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,83 +76,94 @@ const config = {
       }),
     ],
   ],
-
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'کدمن',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'لوگو کدمن',
+          src: 'https://code-man.ir//images/icons/android-chrome-512x512.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'راهنما / داکیومنت',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
+          // {
+            
+          //   to:'faq',
+          //   position: 'left',
+          //   label: 'پرسش و پاسخ',
+          // },
+
+
+          // {to: '/blog', label: 'وبلاگ', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: 'https://demo2.voip-man.ir',
+            label: 'مشاهده دمو',
             position: 'right',
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   // links: [
+      //   //   {
+      //   //     title: 'Docs',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Tutorial',
+      //   //         to: '/docs/intro',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   //   {
+      //   //     title: 'Community',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Stack Overflow',
+      //   //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //   //       },
+      //   //       {
+      //   //         label: 'Discord',
+      //   //         href: 'https://discordapp.com/invite/docusaurus',
+      //   //       },
+      //   //       {
+      //   //         label: 'Twitter',
+      //   //         href: 'https://twitter.com/docusaurus',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   //   {
+      //   //     title: 'More',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Blog',
+      //   //         to: '/blog',
+      //   //       },
+      //   //       {
+      //   //         label: 'GitHub',
+      //   //         href: 'https://github.com/facebook/docusaurus',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   // ],
+      //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
 };
+
+ 
 
 export default config;

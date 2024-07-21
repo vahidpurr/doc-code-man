@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "آموزش نصب و راه‌اندازی",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "نصب و راه اندازی اسکریپت در 5 دقیقه"
   }
 }
