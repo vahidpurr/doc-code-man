@@ -4,20 +4,13 @@ sidebar_position: 0
 
 # معرفی اسکریپت!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+##  اسکریپت فروشگاهی کدمن
+اسکریپت فروشگاهی کدمن، یک پلتفرم فروشگاه ساز بسیار قدرتمند و انعطاف‌پذیر و با سرعت بالا است که با استفاده از React و Node طراحی شده است.
 
-Docusaurus has **much more to offer**!
+این پلتفرم با ویژگی‌های زیادی که ارائه می‌دهد، به یک گزینه عالی برای راه‌اندازی یک سایت فروشگاهی حرفه‌ای تبدیل شده است که به همراه اپلیکیشن اندروید در خدمت شما عزیزان قرار گرفته است.
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+اسکریپت فروشگاهی کدمن، مجموعه‌ای از ویژگی‌های کلیدی را ارائه می‌دهد که آن را به یک پلتفرم فروشگاه ساز قدرتمند تبدیل می‌کند. برخی از این ویژگی‌ها شامل ثبت نظرات حرفه‌ای، کاهش حجم تصاویر هنگام بارگذاری، تولید کد تخفیف به صورت‌های متنوع، ویرایشگر اختصاصی، اتصال به اینستاگرام، فروشگاه بدون نیاز به VPN ، چت آنلاین، ثبت تیکت توسط کاربران و بسیاری دیگر که باعث جذابیت این اسکریپت شده است.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+:::tip یکی دیگر از ویژگی‌های جالب این اسکریپت امکان قرار دادن سوالات متداول (FAQ) در صفحات سایت است. شما میتوانید متن، تصویر ، لینک و سایر المنت‌های HTML را در قسمت پاسخ به سوالات قرار دهید. ما در ادامه شما را با ویژگی و قابلیت هایی که این اسکریپت دارد بیشتر آشنا خواهیم کرد.
 
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+ :::

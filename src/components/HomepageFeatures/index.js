@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import $ from "jquery";
-window.$ = window.JQuery = $
+ 
 const FeatureList = [
   // {
   //   title: 'Easy to Use',
