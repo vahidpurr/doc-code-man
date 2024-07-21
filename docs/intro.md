@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # آموزش اسکریپت
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **راه اندازی در 5 دقیقه**.
 
 ## Getting Started
 
